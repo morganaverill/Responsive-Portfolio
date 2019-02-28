@@ -1,0 +1,150 @@
+* {
+box-sizing: border-box;
+}
+
+.my_name{
+    background-color: teal;
+    min-height: auto;
+    width: 115px;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    margin-left: .5%;
+}
+
+body{
+    background-image: url("./../images/background.jpg");
+}
+
+header{
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1.5px solid;
+    border-color: dimgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    border-right: ridge;
+    border-width: 1px;
+    text-align: center;
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+.nav_link{
+    list-style: none;
+    display: inline;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_link:hover{
+    background-color: lightgrey;
+}
+.header_nav{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 23px;
+    color: teal;
+}
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2%;
+    margin-bottom: -2%;
+    background-color: white;
+    min-height: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#me{
+    float: left;
+    margin-right: 25px;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.move, footer{
+    height: 50px;
+}
+
+.move{
+    background-color: teal;
+    height: 10px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    font-size: 11px;
+    color: white;
+    padding: 15px;
+    bottom: 0;
+}
+
+#portfolio_gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-gap: 15px;
+}
+
+#portfolio_gallery figure a img{
+    width: 200px;
+    margin: auto;
+}
+
+figcaption{
+    text-align: center;
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-top: -20%;
+    opacity: .9;
+    position: absolute;
+}
+
+figure{
+    position: relative;
+}
+
+input, textarea{
+    width: 70%;
+    border-radius: 5px;
+    border: 2px solid teal;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+textarea{
+    height: 40%;
+}
+
+button[type="submit"]{
+    border-radius: 5px;
+    border: 2px solid teal;
+    font-size: 20px;
+    color: teal;
+    background: none;
+}
+
+button[type="submit"]:hover{
+    background-color: lightgrey;
+}
